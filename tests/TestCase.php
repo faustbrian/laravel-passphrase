@@ -1,10 +1,18 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Tests;
 
-use Orchestra\Testbench\TestCase as Orchestra;
+use PreemStudio\Jetpack\Tests\AbstractTestCase;
+use PreemStudio\Passphrase\ServiceProvider;
 
-class TestCase extends Orchestra
+abstract class TestCase extends AbstractTestCase
 {
-    //
+    protected function getPackageProviders($app): array
+    {
+        return [
+            ServiceProvider::class,
+        ];
+    }
 }

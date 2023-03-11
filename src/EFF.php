@@ -40,7 +40,7 @@ final class EFF
     public function generate(int $count): string
     {
         $passphrase = [];
-        $max = count($this->wordList) - 1;
+        $max        = count($this->wordList) - 1;
 
         foreach (range(1, $count) as $i) {
             $passphrase[] = $this->wordList[random_int(0, $max)];

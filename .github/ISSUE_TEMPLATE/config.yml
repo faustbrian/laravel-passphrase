@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: Ask a question
-    url: https://github.com/PreemStudio/passphrase/discussions/new?category=q-a
+    url: https://github.com/preemstudio/laravel-passphrase/discussions/new?category=q-a
     about: Ask the community for help
   - name: Request a feature
-    url: https://github.com/PreemStudio/passphrase/discussions/new?category=ideas
+    url: https://github.com/preemstudio/laravel-passphrase/discussions/new?category=ideas
     about: Share ideas for new features
   - name: Report a security issue
-    url: https://github.com/PreemStudio/passphrase/security/policy
+    url: https://github.com/preemstudio/laravel-passphrase/security/policy
     about: Learn how to notify us for sensitive bugs

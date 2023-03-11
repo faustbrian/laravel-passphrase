@@ -1,18 +1,18 @@
-# Passphrase
+# Laravel Passphrase
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/preemstudio/passphrase.svg?style=flat-square)](https://packagist.org/packages/preemstudio/passphrase)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/preemstudio/passphrase/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/preemstudio/passphrase/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/preemstudio/passphrase/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/preemstudio/passphrase/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/preemstudio/passphrase.svg?style=flat-square)](https://packagist.org/packages/preemstudio/passphrase)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/preemstudio/laravel-passphrase.svg?style=flat-square)](https://packagist.org/packages/preemstudio/laravel-passphrase)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/preemstudio/laravel-passphrase/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/preemstudio/laravel-passphrase/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/preemstudio/laravel-passphrase/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/preemstudio/laravel-passphrase/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/preemstudio/laravel-passphrase.svg?style=flat-square)](https://packagist.org/packages/preemstudio/laravel-passphrase)
 
-A package to easily use randomly-generated passphrases with PHP.
+A package to easily use randomly-generated passphrases with Laravel.
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require preemstudio/passphrase
+composer require preemstudio/laravel-passphrase
 ```
 
 ## Usage
