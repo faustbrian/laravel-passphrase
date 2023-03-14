@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace Tests\Unit;
+
 use PreemStudio\Passphrase\EFF;
 
 it('should generate a random passphrase with the five dice list', function (): void {

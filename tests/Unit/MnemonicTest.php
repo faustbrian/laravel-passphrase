@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace Tests\Unit;
+
 use PreemStudio\Passphrase\Mnemonic;
 
 it('should generate a random passphrase', function ($method): void {
