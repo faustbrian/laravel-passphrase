@@ -7,8 +7,8 @@ namespace Tests\Unit;
 use PreemStudio\Passphrase\Mnemonic;
 
 it('should generate a random passphrase', function ($method): void {
-    expect(explode(' ', Mnemonic::{$method}()->generate(12)))->toHaveCount(12);
-    expect(explode(' ', Mnemonic::{$method}()->generate(24)))->toHaveCount(24);
+    expect(\explode(' ', Mnemonic::{$method}()->generate(12)))->toHaveCount(12);
+    expect(\explode(' ', Mnemonic::{$method}()->generate(24)))->toHaveCount(24);
 })->with([
     'useChineseSimplified',
     'useChineseTraditional',

@@ -8,6 +8,9 @@ use PreemStudio\Jetpack\TestBench\AbstractTestCase;
 use PreemStudio\Passphrase\ServiceProvider;
 use Spatie\LaravelData\LaravelDataServiceProvider;
 
+/**
+ * @internal
+ */
 abstract class TestCase extends AbstractTestCase
 {
     protected function getPackageProviders($app): array

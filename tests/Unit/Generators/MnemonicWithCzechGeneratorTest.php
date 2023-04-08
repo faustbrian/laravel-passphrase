@@ -6,6 +6,6 @@ namespace Tests\Unit\Generators;
 
 use PreemStudio\Passphrase\Generators\MnemonicWithCzechGenerator;
 
-it('should generate a string', function () {
+it('should generate a string', function (): void {
     expect(resolve(MnemonicWithCzechGenerator::class)->generate())->toBeString();
 });

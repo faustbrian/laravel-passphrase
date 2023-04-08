@@ -5,7 +5,6 @@ declare(strict_types=1);
 use PreemStudio\Passphrase\Generators\FiveDiceListGenerator;
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Generator Implementation
@@ -27,5 +26,4 @@ return [
     */
 
     'wordCount' => 12,
-
 ];

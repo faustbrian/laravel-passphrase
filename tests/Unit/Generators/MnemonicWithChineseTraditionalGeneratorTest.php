@@ -6,6 +6,6 @@ namespace Tests\Unit\Generators;
 
 use PreemStudio\Passphrase\Generators\MnemonicWithChineseTraditionalGenerator;
 
-it('should generate a string', function () {
+it('should generate a string', function (): void {
     expect(resolve(MnemonicWithChineseTraditionalGenerator::class)->generate())->toBeString();
 });
