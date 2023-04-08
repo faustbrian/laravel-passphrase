@@ -4,20 +4,15 @@ declare(strict_types=1);
 
 namespace Tests;
 
-use PreemStudio\Jetpack\TestBench\AbstractTestCase;
-use PreemStudio\Passphrase\ServiceProvider;
-use Spatie\LaravelData\LaravelDataServiceProvider;
+use PreemStudio\Jetpack\TestBench\AbstractPackageTestCase;
 
 /**
  * @internal
  */
-abstract class TestCase extends AbstractTestCase
+abstract class TestCase extends AbstractPackageTestCase
 {
-    protected function getPackageProviders($app): array
+    protected function getServiceProviderClass(): string
     {
-        return [
-            LaravelDataServiceProvider::class,
-            ServiceProvider::class,
-        ];
+        return \PreemStudio\Passphrase\ServiceProvider::class;
     }
 }
