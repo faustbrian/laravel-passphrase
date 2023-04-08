@@ -1,0 +1,101 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Parameter \\#1 \\$filename of function file_get_contents expects string, string\\|false given\\.$#"
+			count: 1
+			path: src/EFF.php
+
+		-
+			message: "#^Parameter \\#1 \\$min \\(0\\) of function random_int expects lower number than parameter \\#2 \\$max \\(int\\<\\-1, max\\>\\)\\.$#"
+			count: 1
+			path: src/EFF.php
+
+		-
+			message: "#^Parameter \\#2 \\$string of function explode expects string, string\\|false given\\.$#"
+			count: 1
+			path: src/EFF.php
+
+		-
+			message: "#^Parameter \\#1 \\$count of method PreemStudio\\\\Passphrase\\\\EFF\\:\\:generate\\(\\) expects int, mixed given\\.$#"
+			count: 1
+			path: src/Generators/FiveDiceListGenerator.php
+
+		-
+			message: "#^Parameter \\#1 \\$count of method PreemStudio\\\\Passphrase\\\\EFF\\:\\:generate\\(\\) expects int, mixed given\\.$#"
+			count: 1
+			path: src/Generators/FourDiceListGenerator.php
+
+		-
+			message: "#^Parameter \\#1 \\$wordCount of method PreemStudio\\\\Passphrase\\\\Mnemonic\\:\\:generate\\(\\) expects int, mixed given\\.$#"
+			count: 1
+			path: src/Generators/MnemonicWithChineseSimplifiedGenerator.php
+
+		-
+			message: "#^Parameter \\#1 \\$wordCount of method PreemStudio\\\\Passphrase\\\\Mnemonic\\:\\:generate\\(\\) expects int, mixed given\\.$#"
+			count: 1
+			path: src/Generators/MnemonicWithChineseTraditionalGenerator.php
+
+		-
+			message: "#^Parameter \\#1 \\$wordCount of method PreemStudio\\\\Passphrase\\\\Mnemonic\\:\\:generate\\(\\) expects int, mixed given\\.$#"
+			count: 1
+			path: src/Generators/MnemonicWithCzechGenerator.php
+
+		-
+			message: "#^Parameter \\#1 \\$wordCount of method PreemStudio\\\\Passphrase\\\\Mnemonic\\:\\:generate\\(\\) expects int, mixed given\\.$#"
+			count: 1
+			path: src/Generators/MnemonicWithEnglishGenerator.php
+
+		-
+			message: "#^Parameter \\#1 \\$wordCount of method PreemStudio\\\\Passphrase\\\\Mnemonic\\:\\:generate\\(\\) expects int, mixed given\\.$#"
+			count: 1
+			path: src/Generators/MnemonicWithFrenchGenerator.php
+
+		-
+			message: "#^Parameter \\#1 \\$wordCount of method PreemStudio\\\\Passphrase\\\\Mnemonic\\:\\:generate\\(\\) expects int, mixed given\\.$#"
+			count: 1
+			path: src/Generators/MnemonicWithItalianGenerator.php
+
+		-
+			message: "#^Parameter \\#1 \\$wordCount of method PreemStudio\\\\Passphrase\\\\Mnemonic\\:\\:generate\\(\\) expects int, mixed given\\.$#"
+			count: 1
+			path: src/Generators/MnemonicWithJapaneseGenerator.php
+
+		-
+			message: "#^Parameter \\#1 \\$wordCount of method PreemStudio\\\\Passphrase\\\\Mnemonic\\:\\:generate\\(\\) expects int, mixed given\\.$#"
+			count: 1
+			path: src/Generators/MnemonicWithKoreanGenerator.php
+
+		-
+			message: "#^Parameter \\#1 \\$wordCount of method PreemStudio\\\\Passphrase\\\\Mnemonic\\:\\:generate\\(\\) expects int, mixed given\\.$#"
+			count: 1
+			path: src/Generators/MnemonicWithSpanishGenerator.php
+
+		-
+			message: "#^Parameter \\#1 \\$count of method PreemStudio\\\\Passphrase\\\\EFF\\:\\:generate\\(\\) expects int, mixed given\\.$#"
+			count: 1
+			path: src/Generators/UniqueThreeCharacterListGenerator.php
+
+		-
+			message: "#^Parameter \\#1 \\$filename of function file_get_contents expects string, string\\|false given\\.$#"
+			count: 1
+			path: src/Mnemonic.php
+
+		-
+			message: "#^Parameter \\#1 \\$length of function random_bytes expects int\\<1, max\\>, \\(float\\|int\\) given\\.$#"
+			count: 1
+			path: src/Mnemonic.php
+
+		-
+			message: "#^Parameter \\#2 \\$data of function hash expects string, string\\|false given\\.$#"
+			count: 1
+			path: src/Mnemonic.php
+
+		-
+			message: "#^Parameter \\#2 \\$string of function explode expects string, string\\|false given\\.$#"
+			count: 1
+			path: src/Mnemonic.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Contracts\\\\Container\\\\Container\\:\\:\\$config\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
