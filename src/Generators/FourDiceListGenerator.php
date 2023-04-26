@@ -1,0 +1,22 @@
+<?php
+
+declare(strict_types=1);
+
+namespace BombenProdukt\Passphrase\Generators;
+
+use Illuminate\Config\Repository;
+use BombenProdukt\Passphrase\Contracts\Generator;
+use BombenProdukt\Passphrase\EFF;
+
+final class FourDiceListGenerator implements Generator
+{
+    public function __construct(private readonly Repository $config)
+    {
+        //
+    }
+
+    public function generate(): string
+    {
+        return EFF::useFourDiceList()->generate($this->config->get('passphrase.wordCount'));
+    }
+}
