@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace BombenProdukt\Passphrase\Generators;
 
-use Illuminate\Config\Repository;
 use BombenProdukt\Passphrase\Contracts\Generator;
 use BombenProdukt\Passphrase\Mnemonic;
+use Illuminate\Config\Repository;
 
 final class MnemonicWithSpanishGenerator implements Generator
 {

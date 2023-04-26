@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace BombenProdukt\Passphrase;
 
-use Illuminate\Contracts\Container\Container;
-use League\CommonMark\Environment\Environment;
 use BombenProdukt\PackagePowerPack\Package\AbstractServiceProvider;
 use BombenProdukt\Passphrase\Contracts\Generator;
+use Illuminate\Contracts\Container\Container;
+use League\CommonMark\Environment\Environment;
 
 final class ServiceProvider extends AbstractServiceProvider
 {
