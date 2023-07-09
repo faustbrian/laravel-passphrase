@@ -4,20 +4,6 @@
     </a>
 </p>
 
-<p align="center">
-    <a href="https://github.com/faustbrian/laravel-passphrase/actions">
-        <img src="https://badge.sh/github/check-runs/BombenProdukt/laravel-passphrase" alt="Checks" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/laravel-passphrase">
-        <img src="https://badge.sh/packagist/downloads/BombenProdukt/laravel-passphrase" alt="Downloads" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/laravel-passphrase">
-        <img src="https://badge.sh/packagist/version/BombenProdukt/laravel-passphrase" alt="Version" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/laravel-passphrase">
-        <img src="https://badge.sh/packagist/license/BombenProdukt/laravel-passphrase" alt="License" />
-    </a>
-</p>
 
 ## About Laravel Passphrase
 
