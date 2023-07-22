@@ -17,9 +17,9 @@
     "homepage": "https://github.com/faustbrian/laravel-passphrase",
     "require": {
         "php": "^8.2",
-        "illuminate/contracts": "^10.0",
         "bombenprodukt/laravel-package-powerpack": "^1.0",
-        "ramsey/uuid": "4.x-dev"
+        "illuminate/contracts": "^10.0",
+        "ramsey/uuid": "^4.7"
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.30",
