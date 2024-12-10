@@ -1,0 +1,14 @@
+{
+    "symbol-whitelist": [
+        "array",
+        "bool",
+        "false",
+        "int",
+        "null",
+        "self",
+        "string",
+        "true",
+        "collect",
+        "Illuminate\\Config\\Repository"
+    ]
+}
